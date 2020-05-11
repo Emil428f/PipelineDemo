@@ -15,6 +15,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build the Docker image
-      run: docker build -t apache2_web_server .
+      run: docker build -t gke-test .
 #    - name: Running Docker image
 #      run: docker run -d --name apacheWebServer -p 80:80 apache2_web_server
