@@ -1,0 +1,13 @@
+C:\Users\Citizen ID 18467592\PipelineDemo\bin\Debug\netcoreapp3.1\PipelineDemo.exe
+C:\Users\Citizen ID 18467592\PipelineDemo\bin\Debug\netcoreapp3.1\PipelineDemo.deps.json
+C:\Users\Citizen ID 18467592\PipelineDemo\bin\Debug\netcoreapp3.1\PipelineDemo.runtimeconfig.json
+C:\Users\Citizen ID 18467592\PipelineDemo\bin\Debug\netcoreapp3.1\PipelineDemo.runtimeconfig.dev.json
+C:\Users\Citizen ID 18467592\PipelineDemo\bin\Debug\netcoreapp3.1\PipelineDemo.dll
+C:\Users\Citizen ID 18467592\PipelineDemo\bin\Debug\netcoreapp3.1\PipelineDemo.pdb
+C:\Users\Citizen ID 18467592\PipelineDemo\obj\Debug\netcoreapp3.1\PipelineDemo.csprojAssemblyReference.cache
+C:\Users\Citizen ID 18467592\PipelineDemo\obj\Debug\netcoreapp3.1\PipelineDemo.csproj.CoreCompileInputs.cache
+C:\Users\Citizen ID 18467592\PipelineDemo\obj\Debug\netcoreapp3.1\PipelineDemo.AssemblyInfoInputs.cache
+C:\Users\Citizen ID 18467592\PipelineDemo\obj\Debug\netcoreapp3.1\PipelineDemo.AssemblyInfo.cs
+C:\Users\Citizen ID 18467592\PipelineDemo\obj\Debug\netcoreapp3.1\PipelineDemo.dll
+C:\Users\Citizen ID 18467592\PipelineDemo\obj\Debug\netcoreapp3.1\PipelineDemo.pdb
+C:\Users\Citizen ID 18467592\PipelineDemo\obj\Debug\netcoreapp3.1\PipelineDemo.genruntimeconfig.cache
