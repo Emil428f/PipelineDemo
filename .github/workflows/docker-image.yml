@@ -21,12 +21,13 @@ jobs:
     
     runs-on: ubuntu-latest
     steps:
-      - name: Build and push Docker images
-        uses: docker/build-push-action@v1.1.0
+      - name: Check out the repo
+        uses: actions/checkout@v2
+        
+      - name: Push to Docker Hub
+        uses: docker/build-push-action@v1
         with:
           username: ${{ secrets.DOCKERHUB_USER }}
           password: ${{ secrets.DOCKERHUB_PASS }}
           repository: ${{ secrets.DOCKERHUB_REPO }}
-          tags: latest
-      - run: docker push
-
+          tag_with_ref: true
