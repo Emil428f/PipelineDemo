@@ -11,12 +11,11 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v2
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
-    - uses: docker/build-push-action@v1
+      
     - name: Push the Docker image
       with:
           username: ${{ secrets.DOCKERHUB_USER }}
