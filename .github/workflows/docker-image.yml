@@ -1,29 +1,22 @@
 name: Docker Build/Push
 
 on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+  release:
+  types: [published]
 
 jobs:
-
   build:
-
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
-      
-      
+       
   push:
-    
     runs-on: ubuntu-latest
     steps:
       - name: Check out the repo
         uses: actions/checkout@v2
-        
       - name: Push to Docker Hub
         uses: docker/build-push-action@v1
         with:
