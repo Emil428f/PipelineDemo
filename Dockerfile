@@ -16,7 +16,7 @@
 #COPY --from=build /app/aspnetapp/out ./
 #ENTRYPOINT ["dotnet", "aspnetapp.dll"]
 
-FROM microsoft/aspnetcore-build
+FROM mcr.microsoft.com/dotnet/core/sdk:3.1
 EXPOSE 3000
 WORKDIR /app
 COPY . .
