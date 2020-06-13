@@ -10,9 +10,9 @@ env:
   GITHUB_SHA: ${{ github.sha }}
   GKE_ZONE: ${{ secrets.GKE_ZONE }}
   GKE_CLUSTER: ${{ secrets.GKE_CLUSTER }}
-  IMAGE: serving-api
+  IMAGE: ConsoleApp
   REGISTRY_HOSTNAME: ${{ secrets.REGISTRY_HOSTNAME }}
-  DEPLOYMENT_NAME: serving-api
+  DEPLOYMENT_NAME: ConsoleApp
 
 jobs:
   setup-build-publish-deploy:
